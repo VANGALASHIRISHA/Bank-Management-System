@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Add Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Add New Bank Account</h2>
+
+    <form action="AddAccountServlet" method="post" class="form-box">
+        <label>Account ID</label>
+        <input type="text" name="id" required>
+
+        <label>Account Holder Name</label>
+        <input type="text" name="name" required>
+
+        <label>Balance</label>
+        <input type="number" name="balance" required>
+
+        <button type="submit" class="btn">Add Account</button>
+    </form>
+</div>
+
+</body>
+</html>

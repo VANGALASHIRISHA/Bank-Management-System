@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Update Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Update Bank Account</h2>
+
+    <form action="UpdateAccountServlet" method="get" class="form-box">
+
+        <label>Account ID</label>
+        <input type="number" name="id" required>
+
+        <label>New Name</label>
+        <input type="text" name="name" required>
+
+        <label>New Balance</label>
+        <input type="number" name="balance" required>
+
+        <button type="submit" class="btn">Update Account</button>
+    </form>
+</div>
+
+</body>
+</html>
